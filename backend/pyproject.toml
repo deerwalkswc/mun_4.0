@@ -7,7 +7,9 @@ authors = [
     { name = "Rijan Dahal", email = "70582929+enkoki@users.noreply.github.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "fastapi[all]>=0.165.0",
+]
 
 [project.scripts]
 backend = "backend:main"
